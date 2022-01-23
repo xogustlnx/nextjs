@@ -1,0 +1,203 @@
+.body{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto;
+
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: -0.5px;
+
+}
+
+.ksHeader{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(1,94,170);
+  background-origin: padding-box;
+  background-size: auto;
+
+  box-sizing: border-box;
+  display: block;
+
+  height: 70px;
+  width: 100%;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+
+
+  
+}
+
+.group{
+  box-sizing: border-box;
+  display: block;
+  height: 70px;
+  max-width: 1640px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+
+  position: relative;
+
+}
+
+.ksHeaderL{
+  box-sizing: border-box;
+  display: flex;
+  float: left;
+}
+.ksHeaderR{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-items: top;
+
+  position: relative;
+
+  float: right;
+}
+
+.menu{
+  background-image: url(https://klms.kaist.ac.kr/theme/oklass39/pix/images//icon_heder_menu.png);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  display: inline-block;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  font-size: 0;
+
+}
+
+.logo{
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+
+  margin-top: 0px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.nonManual{
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.loginTime{
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.timeStamp{
+    display: inline-block;
+    font-weight: 300;
+    background-color: rgb(8, 53, 98);
+    background-image: url(https://klms.kaist.ac.kr/theme/oklass39/pix/images//icon_time.png);
+    background-position-x: 14px;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+
+    padding: 6px 15px 6px 33px;
+
+    color: white;
+    
+    
+}
+
+
+.moreTime{
+  display: inline-block;
+  background-color: #062a4e;
+  padding: 6px 8px;
+  color: white;
+
+  cursor: pointer;
+  
+
+
+}
+
+.alarm{
+  position: relative;
+
+
+}
+  .alarmIcon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    position: relative;
+  }
+  .alarmPicture{
+    content: "";
+    display: inline-block;
+    background: url(https://klms.kaist.ac.kr/theme/oklass39/pix/images/icon_arlam.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle;
+  }
+  .multiUsers{
+    margin-left: 35px;
+    vertical-align: top;
+    height: auto;
+  }
+
+.language{
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+  .languageBar{
+    background-repeat: no-repeat;
+    background-color: #015eaa;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    appearance: none;
+
+  }
+
+.logOut{
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.logOutWords{
+  color: white;
+  text-decoration-line: underline;
+}
+
+.manual{
+  display: inline-block;
+  height: 35px;
+  line-height: 30px;
+  width: 95px;
+  text-align: center;
+  border: 3px solid #f7fb04;
+  color: #f7fb04;
+  font-weight: 550;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-left: 28px;
+  padding: 0;
+  background: transparent;
+}
+

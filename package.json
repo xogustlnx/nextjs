@@ -1,0 +1,33 @@
+{
+  "name": "deathvalleyyy",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "css-loader": "^6.5.1",
+    "express": "^4.17.2",
+    "jquery": "^3.6.0",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.5.4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
+}
